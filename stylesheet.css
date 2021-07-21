@@ -1,0 +1,35 @@
+body {
+  background-color: #F9D8CA;
+  font-family: Arial, sans-serif;
+}
+
+#main {
+  max-width: 1080px;
+  margin: 0 auto;
+  width: 70%;
+}
+
+#header {
+  height: 97vh;
+}
+
+#center-header {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#title {
+  font-size: clamp(1rem, 18vw, 12rem);
+  text-align: center;
+  margin: 0;
+}
+
+#title-dis {
+  margin: 0;
+  padding-left: clamp(0px, 2%, 10px);
+  font-size: clamp(1rem, 3vw, 1.5rem);
+}
